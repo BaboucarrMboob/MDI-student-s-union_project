@@ -1,0 +1,92 @@
+body{
+    line-height: 1.7;
+    background-color: wheat;
+    font-family: Georgia, serif;
+    font-size: 112%;
+    color: #333;
+    
+    background-image: url(../images/i.jpg);
+    background-size: cover;
+}
+
+body,
+h1,h,h3,h4,h5,h6,
+ul,ol{
+    margin: 0;
+    padding: o;
+}
+
+.title{
+    font-size: 30pt;
+    color: black;
+}
+
+img{
+    width: 20%;
+    border-radius: 100%;
+    border: 2px solid black;
+
+}
+
+.sub-title{
+    font-size: 20pt;
+    color: white;
+}
+
+.intro{
+    text-align: left;
+    margin-left: 1em;
+    color: white;
+}
+
+.menu{
+    background-color: rgb(0, 100, 194);
+    margin-top: 5em;
+    text-align: right;
+}
+    
+
+.menu a{
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: rgb(0, 100, 194);
+    background-color: white;
+    
+    
+}
+
+
+
+.main{
+    background-color: rgba(255,255,255,.6);
+    padding: 1em;
+    
+}
+
+.footer{
+    padding: 1em;
+    color: #04e015;
+}
+
+.menu .active{
+    background-color: #f50707;
+    color: rgb(0, 100, 194);
+    border: 2px solid rgb(0, 100, 194);
+}
+
+small{
+    color: white;
+    text-decoration: underline;
+}
+
+.wrapper{
+    width: 60%;
+    margin: 3em 0 0 3em;
+    
+}
+
